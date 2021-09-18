@@ -127,3 +127,53 @@ p {
 .pricing-col{
     padding: 3% 2%;
 }
+
+@media (max-width : 1028px) {
+
+    #title{
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    
+}
+
+.ctaheading{
+    color: white;
+    font-family: "Montserrat";
+    margin: 2% auto;
+    font-size: 3rem;
+    line-height: 1.5;
+    
+    
+}
+
+.btn{
+    padding: 3% 15% 7%;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-icon{
+    margin: 20px 10px;
+}
+.footer-icon:hover{
+    color: #ff4c68;
+}
+
+.copyright{
+    color: #8f8f8f;
+}
